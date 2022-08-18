@@ -3,6 +3,9 @@
     padding:0px;
     font-family: 'Raleway', sans-serif;
 }
+body{
+    position:relative;
+}
 header{
     height: 100px;
     width:100%;
@@ -16,9 +19,7 @@ h1{
     margin-left:10%;
     color: #BA2154;
 }
-main{
-    height: 300px;
-}
+
 .reportes h3{
     color: #BA2154;
 }
@@ -42,7 +43,7 @@ footer{
     display: flex;
     align-items: center;
     position:absolute;
-    bottom:0px;
+    bottom:-150px;
 }
 footer p{
     margin:0px;
@@ -56,11 +57,19 @@ footer a{
 
 table{
     border:solid 2px #BA2154;
+    width:auto;
+    height:auto;
 }
 th{
     border-bottom:solid 2px #BA2154;
 }
 td{
 
-    text-align: center;
+    text-align:center;
+    padding-bottom:2px;
+    padding-top:2px;
+    border-bottom:solid 1px #BA2154;
+}
+tr{
+    border-bottom:solid 2px #BA2154;
 }
