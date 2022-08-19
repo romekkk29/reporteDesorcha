@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/index.css" >
+    <script type="text/javascript" src="../dist/tableToExcel.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -21,7 +22,7 @@
         </section>
         <section>
         
-        <table> 
+        <table > 
             <thead>
                 <tr>
                 <th>
@@ -33,7 +34,7 @@
                 </th>
             </tr>
             </thead>
-        <tbody>
+        <tbody >
 
             <tr style="background-color:rgba(186,33,84,0.4)">
                 <td>Casillero del Diablo Malbec</td>
@@ -72,9 +73,18 @@
                 <td style="text-align:center">9</td>
             </tr>
             <tr style="background-color:rgba(186,33,84,0.2)">
+                <td>Trivento Reserve White Malbec</td>
+                <td style="text-align:center">0</td>
+            </tr>
+            <tr style="background-color:rgba(186,33,84,0.2)">
+                <td>Trivento Reserve Malbec Organic</td>
+                <td style="text-align:center">0</td>
+            </tr>
+            <tr style="background-color:rgba(186,33,84,0.2)">
                 <td>Trivento Reserve Caja Mixta</td>
                 <td style="text-align:center">10</td>
             </tr>
+            
             <tr style="background-color:rgba(186,33,84,0.6)">
                 <td>Trivento Golden Reserve Malbec</td>
                 <td style="text-align:center">20</td>
@@ -115,13 +125,25 @@
                 <td>Espumante Casillero del Diablo Extra Brut</td>
                 <td style="text-align:center">12</td>
             </tr>
+            <tr style="background-color:rgba(186,33,84,0.6)">
+                <td>Espumante Trivento Brut Nature</td>
+                <td style="text-align:center">0</td>
+            </tr>
             <tr style="background-color:rgba(186,33,84,0.2)">
                 <td>Cono Sur Sauvignon Blanck</td>
                 <td style="text-align:center">6</td>
             </tr>
+            <tr style="background-color:rgba(186,33,84,0.2)">
+                <td>Cono Sur Carmenere</td>
+                <td style="text-align:center">0</td>
+            </tr>
             <tr style="background-color:rgba(186,33,84,0.6)">
                 <td>Trivento Maximun Red Blend </td>
                 <td style="text-align:center">30</td>
+            </tr>
+            <tr style="background-color:rgba(186,33,84,0.6)">
+                <td>Trivento Rosé </td>
+                <td style="text-align:center">0</td>
             </tr>
 
 
@@ -131,12 +153,21 @@
         </tbody>
        
     </table>
+    <table id="table1">
+        <tr>
+            <td>hola</td>
+        </tr>
+        <tr>
+            <td>hola</td>
+        </tr>
+    </table>
 </section>
-
+    <button id="export">exporta</button>
     </main>
     <footer>
         <p>Tienda online:</p><a target="_blank" href="https://www.descorcha.com.ar/">descorcha.com.ar</a>
     </footer>
 </body>
+
     <script src="js/main.js"></script>
 </html>
