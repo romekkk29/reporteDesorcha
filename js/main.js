@@ -28,3 +28,4 @@ function exportTableToExcel(tableID, filename = ''){
         downloadLink.click();
     }
 }
+

@@ -5,6 +5,7 @@
 }
 body{
     position:relative;
+    min-height: 80vh;
 }
 header{
     height: 100px;
@@ -15,9 +16,12 @@ header{
     border-bottom:1px solid rgba(0,0,0,0.2);
 }
 h1{
+
+    color: #BA2154;
+}
+header a {
     margin:0px;
     margin-left:10%;
-    color: #BA2154;
 }
 
 .reportes h3{
@@ -29,6 +33,7 @@ h1{
 .reportes ul li{
     margin-bottom: 20px;
     list-style: none;
+    cursor:pointer;
 }
 .logo{
     width:160px;
@@ -72,13 +77,8 @@ td{
     padding-left:5px;
     padding-bottom:2px;
     padding-top:2px;
-
     font-weight: 500;
     font-size: 18px;
-}
-
-tr{
-  
 }
 #export{
     width:150px;
@@ -89,4 +89,11 @@ tr{
     cursor: pointer;
     margin-left: 10%;
     background-color: #BA2154;
+}
+#stock{
+    margin-top: 50px;
+}
+a{
+    text-decoration: none;
+   
 }
